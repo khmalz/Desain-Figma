@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+.jumbotron {
+   padding: 11rem 1rem;
+   background-image: url(img/background.jpg);
+   background-size: cover;
+   height: 750px;
+   background-position: 0 -260px;
+   position: absolute;
+   z-index: -22;
+   top: 0;
+   width: 100%;
+   color: white;
+}
+
+.jumbotron h1 {
+   font-family: "Saira Condensed", sans-serif;
+}
+
+.navbar-sendiri {
+   background: #11130ec2 !important;
+}
+
+.navbar-brand {
+   font-family: "Cairo", sans-serif;
+}
+
+.navbar-nav {
+   font-size: 1em;
+}
+
+.navbar-nav:hover {
+   font-weight: bold !important;
+}
+
+.btn-bawah:hover {
+   color: #0d6efd !important;
+}
+
+.paragraf {
+   font-weight: 500;
+   font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.navbar-nav a:hover {
+   color: white !important;
+}
+
+.btn-nav:hover {
+   background-color: rgb(24, 24, 108);
+}
