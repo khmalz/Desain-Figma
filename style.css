@@ -8,6 +8,7 @@
    background-size: cover;
    height: 750px;
    background-position: 0 -260px;
+   background-attachment: fixed;
    position: absolute;
    z-index: -22;
    top: 0;
@@ -50,4 +51,30 @@
 
 .btn-nav:hover {
    background-color: rgb(24, 24, 108);
+   border-color: rgb(24, 24, 108);
+}
+.navbar-toggler {
+   border-style: none !important;
+}
+@media screen and (max-width: 768px) {
+   .navbar-hamburger {
+      background-color: rgba(255, 255, 255, 0.775) !important;
+      padding: 0 0 10px 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+   }
+
+   .navbar-hamburger a {
+      color: #11130ec2 !important;
+   }
+
+   .navbar-hamburger a:hover {
+      color: black !important;
+   }
+
+   .btn-nav:hover {
+      background-color: rgba(255, 255, 255);
+      color: #0d6efd;
+      border-color: white;
+   }
 }
