@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 
 .jumbotron {
-   padding: 11rem 1rem;
+   padding: 10rem 1rem;
    background-image: url(img/background.jpg);
    background-size: cover;
-   height: 750px;
-   background-position: 0 -260px;
+   height: 100%;
+   background-position: 0 -100px;
    background-attachment: fixed;
    position: absolute;
    z-index: -22;
@@ -56,7 +56,23 @@
 .navbar-toggler {
    border-style: none !important;
 }
+
+@media screen and (max-width: 1200px) {
+   .jumbotron {
+      background-position: 0 0;
+   }
+}
+
 @media screen and (max-width: 768px) {
+   .jumbotron {
+      background-position: -300px 0;
+      padding: 8rem 1rem;
+   }
+
+   .jumbotron h1 {
+      margin-bottom: 30px !important;
+   }
+
    .navbar-hamburger {
       background-color: rgba(255, 255, 255, 0.775) !important;
       padding: 0 0 10px 10px;
@@ -76,5 +92,11 @@
       background-color: rgba(255, 255, 255);
       color: #0d6efd;
       border-color: white;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .jumbotron {
+      background-position: -530px 0;
    }
 }
